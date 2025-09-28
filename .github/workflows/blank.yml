@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       banner_text:
-        description: '横幅文字内容（支持换行）'
+        description: '横幅文字内容（支持\n换行）'
         required: true
         default: '🎉 欢迎使用定制OpenWrt固件！\n📱 专业技术支持\n💬 有问题随时联系'
       banner_color:
@@ -13,34 +13,48 @@ on:
         default: '#FF0000'
         type: choice
         options:
-        - '#FF0000'
-        - '#00FF00'
-        - '#0000FF'
-        - '#FF6600'
-        - '#800080'
-        - '#000000'
+        - '#FF0000'  # 红色
+        - '#00FF00'  # 绿色  
+        - '#0000FF'  # 蓝色
+        - '#FF6600'  # 橙色
+        - '#800080'  # 紫色
+        - '#000000'  # 黑色
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - name: 检出代码
+      uses: actions/checkout@v3
     
     - name: 更新banner.json
       run: |
-        cat > banner.json << EOF
+        echo "正在更新横幅内容..."
+        echo "文字: ${{ github.event.inputs.banner_text }}"
+        echo "颜色: ${{ github.event.inputs.banner_color }}"
+        
+        # 生成JSON文件
+        cat > banner.json << 'EOF'
         {
           "text": "${{ github.event.inputs.banner_text }}",
           "color": "${{ github.event.inputs.banner_color }}"
         }
         EOF
         
+        echo "生成的banner.json内容:"
+        cat banner.json
+        
     - name: 提交更改
       run: |
-        git config user.name "自动更新机器人"
+        git config user.name "横幅自动更新机器人"
         git config user.email "actions@github.com"
         git add banner.json
+        
+        # 检查是否有变更
         if ! git diff --staged --quiet; then
-          git commit -m "🔄 更新横幅内容 - $(date)"
+          git commit -m "🔄 更新横幅内容 - $(date '+%Y-%m-%d %H:%M:%S')"
           git push
+          echo "✅ 横幅内容更新成功!"
+        else
+          echo "ℹ️ 内容无变化，跳过更新"
         fi
