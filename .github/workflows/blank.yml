@@ -14,7 +14,7 @@ on:
         type: choice
         options:
         - '#FF0000'  # 红色
-        - '#00FF00'  # 绿色  
+        - '#00FF00'  # 绿色
         - '#0000FF'  # 蓝色
         - '#FF6600'  # 橙色
         - '#800080'  # 紫色
@@ -23,37 +23,40 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # ✅ 允许写入仓库内容
     steps:
     - name: 检出代码
       uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}   # ✅ 使用 GitHub 自动注入的 Token
     
-    - name: 更新banner.json
+    - name: 更新 banner.json
       run: |
         echo "正在更新横幅内容..."
         echo "文字: ${{ github.event.inputs.banner_text }}"
         echo "颜色: ${{ github.event.inputs.banner_color }}"
-        
-        # 生成JSON文件
-        cat > banner.json << 'EOF'
+
+        # 生成 JSON 文件
+        cat > banner.json << EOF
         {
           "text": "${{ github.event.inputs.banner_text }}",
           "color": "${{ github.event.inputs.banner_color }}"
         }
         EOF
-        
-        echo "生成的banner.json内容:"
+
+        echo "生成的 banner.json 内容:"
         cat banner.json
-        
+
     - name: 提交更改
       run: |
         git config user.name "横幅自动更新机器人"
-        git config user.email "actions@github.com"
+        git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git add banner.json
         
-        # 检查是否有变更
         if ! git diff --staged --quiet; then
           git commit -m "🔄 更新横幅内容 - $(date '+%Y-%m-%d %H:%M:%S')"
-          git push
+          git push origin HEAD:main
           echo "✅ 横幅内容更新成功!"
         else
           echo "ℹ️ 内容无变化，跳过更新"
