@@ -1,23 +1,27 @@
 {
-  "text": "🎉 欢迎使用定制OpenWrt固件！📱 专业技术支持💬 实验",
+  "text": "🎉 欢迎使用定制固件！📱 专业技术支持",
   "color": "#FF0000",
   "nav_tabs": [
     {
-      "title": "常用工具",
+      "title": "🔧 常用工具",
       "links": [
-        {"name": "AI", "url": "https://ai-bot.cn/"},
+        {"name": "AI Bot", "url": "https://ai-bot.cn/"},
         {"name": "Claude AI", "url": "https://claude.ai/"},
-        {"name": "DD Link", "url": "https://ddlink.cc/"},
-        {"name": "Wormhole", "url": "https://wormhole.app/"},
-        {"name": "Share Once", "url": "https://share-once.com/"}
+        {"name": "DD Link", "url": "https://ddlink.cc/"}
       ]
     },
     {
-      "title": "媒体服务",
+      "title": "🎁 福利分享",
       "links": [
-        {"name": "YouTube工作室", "url": "https://studio.youtube.com/"},
-        {"name": "MediaFire", "url": "https://www.mediafire.com/"},
-        {"name": "临时分享", "url": "https://passed.app/main/more/online/share-temp-data/"}
+        {"name": "YouTube", "url": "https://youtube.com/"},
+        {"name": "MediaFire", "url": "https://www.mediafire.com/"}
+      ]
+    },
+    {
+      "title": "🔗 防失联",
+      "links": [
+        {"name": "Telegram群", "url": "https://t.me/fgnb111999"},
+        {"name": "QQ联系", "url": "https://wpa.qq.com/msgrd?v=3&uin=183452852"}
       ]
     }
   ]
