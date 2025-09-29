@@ -1,4 +1,24 @@
 {
-  "text": "🎉 欢迎使用定制OpenWrt固件！\n📱 专业技术支持\n💬 有问题随时联系",
-  "color": "#FF0000"
+  "text": "🎉 欢迎使用定制OpenWrt固件！📱 专业技术支持💬 实验",
+  "color": "#FF0000",
+  "nav_tabs": [
+    {
+      "title": "常用工具",
+      "links": [
+        {"name": "AI Bot", "url": "https://ai-bot.cn/"},
+        {"name": "Claude AI", "url": "https://claude.ai/"},
+        {"name": "DD Link", "url": "https://ddlink.cc/"},
+        {"name": "Wormhole", "url": "https://wormhole.app/"},
+        {"name": "Share Once", "url": "https://share-once.com/"}
+      ]
+    },
+    {
+      "title": "媒体服务",
+      "links": [
+        {"name": "YouTube工作室", "url": "https://studio.youtube.com/"},
+        {"name": "MediaFire", "url": "https://www.mediafire.com/"},
+        {"name": "临时分享", "url": "https://passed.app/main/more/online/share-temp-data/"}
+      ]
+    }
+  ]
 }
