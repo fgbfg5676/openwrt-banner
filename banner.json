@@ -6,7 +6,7 @@
   "background_3": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg3.jpg",
   "nav_tabs": [
     {
-      "title": "🔧 常用工具",
+      "title": "🔧 工具",
       "links": [
         {"name": "🌐 Google", "url": "https://www.google.com"},
         {"name": "📺 YouTube", "url": "https://www.youtube.com"}
