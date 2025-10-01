@@ -1,27 +1,27 @@
 {
-  "text": "🎉 欢迎使用定制固件！📱 专业技术支持",
-  "color": "#FF0000",
+  "text": "🎉 新春特惠 · 技术支持24/7 · 已服务500+用户 · 安全稳定运行",
+  "color": "rainbow",
+  "background_1": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg1.jpg",
+  "background_2": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg2.jpg",
+  "background_3": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg3.jpg",
   "nav_tabs": [
     {
       "title": "🔧 常用工具",
       "links": [
-        {"name": "AI Bot", "url": "https://ai-bot.cn/"},
-        {"name": "Claude AI", "url": "https://claude.ai/"},
-        {"name": "DD Link", "url": "https://ddlink.cc/"}
+        {"name": "🌐 Google", "url": "https://www.google.com"},
+        {"name": "📺 YouTube", "url": "https://www.youtube.com"}
       ]
     },
     {
       "title": "🎁 福利分享",
       "links": [
-        {"name": "YouTube", "url": "https://youtube.com/"},
-        {"name": "MediaFire", "url": "https://www.mediafire.com/"}
+        {"name": "🎬 Netflix", "url": "https://www.netflix.com"}
       ]
     },
     {
       "title": "🔗 防失联",
       "links": [
-        {"name": "Telegram群", "url": "https://t.me/fgnb111999"},
-        {"name": "QQ联系", "url": "https://wpa.qq.com/msgrd?v=3&uin=183452852"}
+        {"name": "📱 Telegram", "url": "https://t.me/fgnb111999"}
       ]
     }
   ]
