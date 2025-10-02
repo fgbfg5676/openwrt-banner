@@ -1,27 +1,74 @@
 {
   "text": "🎉 新春特惠 · 技术支持24/7 · 已服务500+用户 · 安全稳定运行",
+  "text_list": [
+    "🎉 新春特惠 · 技术支持24/7 · 已服务500+用户 · 安全稳定运行",
+    "💻 定制 OpenWrt 固件 · 极速稳定",
+    "🔒 安全加固 · 智能分流 · 家庭网络首选",
+    "📊 多功能横幅插件 · 丰富导航与工具",
+    "🌐 在线资源聚合 · 一键直达",
+    "🎁 福利推荐 · 视频、音乐、书籍全覆盖",
+    "📱 防失联通讯工具 · 即刻连接",
+    "🖼️ 背景可切换 · 个性化界面",
+    "⚡ 极速体验 · 全面优化路由性能",
+    "💡 技术支持 · 7x24 小时服务"
+  ],
   "color": "rainbow",
   "background_1": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg1.jpg",
   "background_2": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg2.jpg",
   "background_3": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg3.jpg",
+  "background_4": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg4.jpg",
+  "background_5": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg5.jpg",
+  "background_6": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg6.jpg",
+  "background_7": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg7.jpg",
+  "background_8": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg8.jpg",
+  "background_9": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg9.jpg",
+  "background_10": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg10.jpg",
+  "background_11": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg11.jpg",
+  "background_12": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg12.jpg",
   "nav_tabs": [
     {
       "title": "🔧 工具",
       "links": [
-        {"name": "🌐 Google", "url": "https://www.google.com"},
-        {"name": "📺 YouTube", "url": "https://www.youtube.com"}
+        {"name": "🌐 Google", "url": "https://www.google.com", "icon": "https://www.google.com/favicon.ico", "desc": "全球最大搜索引擎"},
+        {"name": "🧮 Calculator", "url": "https://www.desmos.com/calculator", "icon": "https://www.desmos.com/favicon.ico", "desc": "在线计算器工具"},
+        {"name": "📦 GitHub", "url": "https://github.com", "icon": "https://github.com/favicon.ico", "desc": "开发者代码托管平台"},
+        {"name": "🔍 DuckDuckGo", "url": "https://duckduckgo.com", "icon": "https://duckduckgo.com/favicon.ico", "desc": "隐私搜索引擎"},
+        {"name": "📈 TradingView", "url": "https://www.tradingview.com", "icon": "https://www.tradingview.com/favicon.ico", "desc": "股票和行情分析"},
+        {"name": "💻 JSFiddle", "url": "https://jsfiddle.net", "icon": "https://jsfiddle.net/favicon.ico", "desc": "在线前端测试平台"},
+        {"name": "🖼️ Canva", "url": "https://www.canva.com", "icon": "https://www.canva.com/favicon.ico", "desc": "在线设计工具"},
+        {"name": "📊 Google Sheets", "url": "https://sheets.google.com", "icon": "https://sheets.google.com/favicon.ico", "desc": "在线表格文档"},
+        {"name": "📌 Pinboard", "url": "https://pinboard.in", "icon": "https://pinboard.in/favicon.ico", "desc": "在线书签管理"},
+        {"name": "📝 Notion", "url": "https://www.notion.so", "icon": "https://www.notion.so/favicon.ico", "desc": "笔记与项目管理工具"}
       ]
     },
     {
       "title": "🎁 福利分享",
       "links": [
-        {"name": "🎬 Netflix", "url": "https://www.netflix.com"}
+        {"name": "🎬 Netflix", "url": "https://www.netflix.com", "icon": "https://www.netflix.com/favicon.ico", "desc": "在线视频平台"},
+        {"name": "🎧 Spotify", "url": "https://www.spotify.com", "icon": "https://www.spotify.com/favicon.ico", "desc": "在线音乐服务"},
+        {"name": "📺 YouTube", "url": "https://www.youtube.com", "icon": "https://www.youtube.com/favicon.ico", "desc": "视频分享平台"},
+        {"name": "📚 Kindle Cloud", "url": "https://read.amazon.com", "icon": "https://read.amazon.com/favicon.ico", "desc": "电子书阅读平台"},
+        {"name": "🎮 Steam", "url": "https://store.steampowered.com", "icon": "https://store.steampowered.com/favicon.ico", "desc": "游戏购买与管理"},
+        {"name": "📰 Medium", "url": "https://medium.com", "icon": "https://medium.com/favicon.ico", "desc": "博客和文章发布平台"},
+        {"name": "📷 Unsplash", "url": "https://unsplash.com", "icon": "https://unsplash.com/favicon.ico", "desc": "免费高质量图片库"},
+        {"name": "🎨 DeviantArt", "url": "https://www.deviantart.com", "icon": "https://www.deviantart.com/favicon.ico", "desc": "艺术创作社区"},
+        {"name": "📺 Bilibili", "url": "https://www.bilibili.com", "icon": "https://www.bilibili.com/favicon.ico", "desc": "弹幕视频分享网站"},
+        {"name": "📖 Project Gutenberg", "url": "https://www.gutenberg.org", "icon": "https://www.gutenberg.org/favicon.ico", "desc": "免费电子书资源"}
       ]
     },
     {
       "title": "🔗 防失联",
       "links": [
-        {"name": "📱 Telegram", "url": "https://t.me/fgnb111999"}
+        {"name": "📱 Telegram", "url": "https://t.me/fgnb111999", "icon": "https://telegram.org/favicon.ico", "desc": "加密即时通讯"},
+        {"name": "📧 Gmail", "url": "https://mail.google.com", "icon": "https://mail.google.com/favicon.ico", "desc": "电子邮件服务"},
+        {"name": "💬 WhatsApp", "url": "https://web.whatsapp.com", "icon": "https://web.whatsapp.com/favicon.ico", "desc": "跨平台即时通讯"},
+        {"name": "📞 Signal", "url": "https://signal.org", "icon": "https://signal.org/favicon.ico", "desc": "安全通讯工具"},
+        {"name": "💼 LinkedIn", "url": "https://www.linkedin.com", "icon": "https://www.linkedin.com/favicon.ico", "desc": "职场社交平台"},
+        {"name": "🐦 Twitter", "url": "https://twitter.com", "icon": "https://twitter.com/favicon.ico", "desc": "全球社交媒体"},
+        {"name": "📸 Instagram", "url": "https://www.instagram.com", "icon": "https://www.instagram.com/favicon.ico", "desc": "图片和视频分享平台"},
+        {"name": "📝 Slack", "url": "https://slack.com", "icon": "https://slack.com/favicon.ico", "desc": "团队协作工具"},
+        {"name": "🌐 Discord", "url": "https://discord.com", "icon": "https://discord.com/favicon.ico", "desc": "语音、视频和文字聊天"},
+        {"name": "💬 WeChat", "url": "https://web.wechat.com", "icon": "https://web.wechat.com/favicon.ico", "desc": "国内即时通讯平台"}
       ]
     }
   ]
