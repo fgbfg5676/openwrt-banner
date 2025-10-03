@@ -1,11 +1,7 @@
 {
-  // "enabled": 是否启用插件，true 表示启用，false 表示禁用（默认 true）
   "enabled": true,
-  // "disable_message": 当 enabled 为 false 时显示的禁用消息，建议提供简短说明
   "disable_message": "服务维护中，请稍后访问",
-  // "text": 主横幅文本，显示在页面顶部
   "text": "🎉 新春特惠 · 技术支持24/7 · 已服务500+用户 · 安全稳定运行",
-  // "banner_texts": 轮播文本数组，每隔 carousel_interval（默认 5000ms）切换显示
   "banner_texts": [
     "🎉 新春特惠 · 技术支持24/7 · 已服务500+用户 · 安全稳定运行",
     "💻 定制 OpenWrt 固件 · 极速稳定",
@@ -18,9 +14,7 @@
     "⚡ 极速体验 · 全面优化路由性能",
     "💡 技术支持 · 7x24 小时服务"
   ],
-  // "color": 横幅背景颜色，支持 "rainbow" 或其他 CSS 颜色值
   "color": "rainbow",
-  // "background_1" 到 "background_12": 背景图片 URL，支持 4 组，每组 3 张图片
   "background_1": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg1.jpg",
   "background_2": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg2.jpg",
   "background_3": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg3.jpg",
@@ -33,12 +27,9 @@
   "background_10": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg10.jpg",
   "background_11": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg11.jpg",
   "background_12": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg12.jpg",
-  // "nav_tabs": 导航分组数组，每个分组包含 title 和 links 数组
   "nav_tabs": [
     {
-      // "title": 分组标题，支持 emoji
       "title": "🔧 工具",
-      // "links": 分组内的链接数组，每个链接包含 name、url、icon（可选）、desc（可选）
       "links": [
         {"name": "🌐 Google", "url": "https://www.google.com", "icon": "https://www.google.com/favicon.ico", "desc": "全球最大搜索引擎"},
         {"name": "🧮 Calculator", "url": "https://www.desmos.com/calculator", "icon": "https://www.desmos.com/favicon.ico", "desc": "在线计算器工具"},
