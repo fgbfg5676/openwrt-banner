@@ -1,29 +1,8 @@
-# openwrt-banner
-
- 基于成功脚本的优化版Banner插件生成完成！"
-
-🚀 新增核心特性："
-✅ 编译后自动生效 - 无需手动干预"
-✅ 首次启动更新 - 5分钟后自动获取最新内容"
-✅ 定期自动同步 - 每10分钟检查更新"
-✅ 中文完整界面 - 所有文字本地化"
-✅ 密码保护机制 - 客户无法修改设置"
-✅ GitHub集成优化 - 智能重试和容错"
-✅ 状态实时监控 - 可视化更新状态"
-
-🎯 自动化流程：
-固件编译完成后，包含所有必要组件"
-路由器首次启动后5分钟自动联网更新"
-之后每10分钟检查一次GitHub内容更新"
-客户只能查看，无法修改任何设置"
-
-📋 GitHub配置步骤："
-在GitHub创建仓库: openwrt-banner"
-上传banner.json文件:"
-{"text":"🎉 最新广告内容","color":"#FF0000"}'
-编译固件，客户使用时会自动获取最新内容"
-
-🔧 管理方式："
-• 作者: 修改GitHub仓库中的banner.json文件"
-• 客户: 只能查看，无法修改（密码保护）"
-• 更新: 完全自动化，无需任何手动操作"
+# JSON Field Explanation
+- "enabled": 是否启用插件，true 表示启用，false 表示禁用（默认 true）
+- "disable_message": 当 enabled 为 false 时显示的禁用消息，建议提供简短说明
+- "text": 主横幅文本，显示在页面顶部
+- "banner_texts": 轮播文本数组，每隔 carousel_interval（默认 5000ms）切换显示
+- "color": 横幅背景颜色，支持 "rainbow" 或其他 CSS 颜色值
+- "background_1" 到 "background_12": 背景图片 URL，支持 4 组，每组 3 张图片
+- "nav_tabs": 导航分组数组，每个分组包含 title 和 links 数组
