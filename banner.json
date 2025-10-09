@@ -15,6 +15,11 @@
     "💡 技术支持 · 7x24 小时服务"
   ],
   "color": "rainbow",
+  "contact_info": {
+    "email": "new-support@example.com",
+    "telegram": "@new_telegram_contact",
+    "qq": "88888888"
+  },
   "background_1": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg1.jpg",
   "background_2": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg2.jpg",
   "background_3": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg3.jpg",
