@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "disable_message": "服务维护中，请稍后访问",
+  "disable_message": "服务维护中,请稍后访问",
   "text": "🎉 新春特惠 · 技术支持24/7 · 已服务500+用户 · 安全稳定运行",
   "banner_texts": [
     "🎉 新春特惠 · 技术支持24/7 · 已服务500+用户 · 安全稳定运行",
@@ -20,6 +20,107 @@
     "telegram": "@new_telegram_contact",
     "qq": "88888888"
   },
+  "carousel_files": [
+    {
+      "name": "OpenWrt 快速入门指南.pdf",
+      "desc": "从零开始配置你的路由器,新手必读教程",
+      "type": "pdf",
+      "size": "2.8 MB",
+      "url": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/files/openwrt-quickstart.pdf"
+    },
+    {
+      "name": "插件使用手册.pdf",
+      "desc": "详细介绍横幅插件的所有功能与配置方法",
+      "type": "pdf",
+      "size": "1.5 MB",
+      "url": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/files/plugin-manual.pdf"
+    },
+    {
+      "name": "常见问题解答.txt",
+      "desc": "收集了用户最常遇到的问题和解决方案",
+      "type": "txt",
+      "size": "45 KB",
+      "url": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/files/faq.txt"
+    },
+    {
+      "name": "网络优化配置.txt",
+      "desc": "提升路由器性能的高级配置技巧",
+      "type": "txt",
+      "size": "28 KB",
+      "url": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/files/network-optimization.txt"
+    },
+    {
+      "name": "Netflix 高级会员",
+      "desc": "4K超高清画质,多设备同时观看,点击查看优惠套餐",
+      "type": "url",
+      "url": "https://www.netflix.com/signup"
+    },
+    {
+      "name": "Spotify Premium",
+      "desc": "无广告音乐播放,离线下载,高品质音质体验",
+      "type": "url",
+      "url": "https://www.spotify.com/premium/"
+    },
+    {
+      "name": "安全配置清单.pdf",
+      "desc": "加固路由器安全的完整检查清单与步骤",
+      "type": "pdf",
+      "size": "980 KB",
+      "url": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/files/security-checklist.pdf"
+    },
+    {
+      "name": "YouTube Premium",
+      "desc": "无广告观看,后台播放,包含YouTube Music会员",
+      "type": "url",
+      "url": "https://www.youtube.com/premium"
+    },
+    {
+      "name": "脚本命令速查表.txt",
+      "desc": "常用Shell命令和脚本示例,快速参考工具",
+      "type": "txt",
+      "size": "62 KB",
+      "url": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/files/command-reference.txt"
+    },
+    {
+      "name": "Disney+ 订阅",
+      "desc": "海量迪士尼、漫威、星战内容,家庭娱乐首选",
+      "type": "url",
+      "url": "https://www.disneyplus.com/welcome"
+    },
+    {
+      "name": "固件升级指南.pdf",
+      "desc": "安全升级OpenWrt固件的详细步骤与注意事项",
+      "type": "pdf",
+      "size": "3.2 MB",
+      "url": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/files/firmware-upgrade.pdf"
+    },
+    {
+      "name": "Telegram Premium",
+      "desc": "更大文件传输,专属贴纸,无限频道订阅",
+      "type": "url",
+      "url": "https://telegram.org/blog/premium"
+    },
+    {
+      "name": "备份恢复教程.txt",
+      "desc": "如何正确备份和恢复路由器配置",
+      "type": "txt",
+      "size": "18 KB",
+      "url": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/files/backup-restore.txt"
+    },
+    {
+      "name": "Notion 个人版升级",
+      "desc": "无限文件上传,版本历史,高级协作功能",
+      "type": "url",
+      "url": "https://www.notion.so/product"
+    },
+    {
+      "name": "插件开发文档.pdf",
+      "desc": "面向开发者的LuCI插件开发完整教程",
+      "type": "pdf",
+      "size": "4.1 MB",
+      "url": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/files/dev-guide.pdf"
+    }
+  ],
   "background_1": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg1.jpg",
   "background_2": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg2.jpg",
   "background_3": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/backgrounds/bg3.jpg",
