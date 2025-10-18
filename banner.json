@@ -168,6 +168,21 @@
         {"name": "📝 Slack", "url": "https://slack.com", "icon": "https://slack.com/favicon.ico", "desc": "团队协作工具"},
         {"name": "🌐 Discord", "url": "https://discord.com", "icon": "https://discord.com/favicon.ico", "desc": "语音、视频和文字聊天"},
         {"name": "💬 WeChat", "url": "https://web.wechat.com", "icon": "https://web.wechat.com/favicon.ico", "desc": "国内即时通讯平台"}
+        ]
+    },
+    {
+      "title": "🔗 实验",
+      "links": [
+        {"name": "📱 Telegram", "url": "https://t.me/fgnb111999", "icon": "https://telegram.org/favicon.ico", "desc": "加密即时通讯"},
+        {"name": "📧 Gmail", "url": "https://mail.google.com", "icon": "https://mail.google.com/favicon.ico", "desc": "电子邮件服务"},
+        {"name": "💬 WhatsApp", "url": "https://web.whatsapp.com", "icon": "https://web.whatsapp.com/favicon.ico", "desc": "跨平台即时通讯"},
+        {"name": "📞 Signal", "url": "https://signal.org", "icon": "https://signal.org/favicon.ico", "desc": "安全通讯工具"},
+        {"name": "💼 LinkedIn", "url": "https://www.linkedin.com", "icon": "https://www.linkedin.com/favicon.ico", "desc": "职场社交平台"},
+        {"name": "🐦 Twitter", "url": "https://twitter.com", "icon": "https://twitter.com/favicon.ico", "desc": "全球社交媒体"},
+        {"name": "📸 Instagram", "url": "https://www.instagram.com", "icon": "https://www.instagram.com/favicon.ico", "desc": "图片和视频分享平台"},
+        {"name": "📝 Slack", "url": "https://slack.com", "icon": "https://slack.com/favicon.ico", "desc": "团队协作工具"},
+        {"name": "🌐 Discord", "url": "https://discord.com", "icon": "https://discord.com/favicon.ico", "desc": "语音、视频和文字聊天"},
+        {"name": "💬 WeChat", "url": "https://web.wechat.com", "icon": "https://web.wechat.com/favicon.ico", "desc": "国内即时通讯平台"}
       ]
     }
   ]
