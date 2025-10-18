@@ -22,31 +22,27 @@
   },
   "carousel_files": [
     {
-      "name": "OpenWrt 快速入门指南.pdf",
+      "name": "OpenWrt 快速入门指南",
       "desc": "从零开始配置你的路由器,新手必读教程",
-      "type": "pdf",
-      "size": "2.8 MB",
+      "type": "url",
       "url": "https://fromsmash.com/tWheibb3b1-ht"
     },
     {
-      "name": "插件使用手册.pdf",
+      "name": "插件使用手册",
       "desc": "详细介绍横幅插件的所有功能与配置方法",
-      "type": "pdf",
-      "size": "1.5 MB",
+      "type": "url",
       "url": "https://toffeeshare.com/c/Yu4EwKLHRU"
     },
     {
-      "name": "常见问题解答.txt",
+      "name": "常见问题解答",
       "desc": "收集了用户最常遇到的问题和解决方案",
-      "type": "txt",
-      "size": "45 KB",
+      "type": "url",
       "url": "https://limewire.com/d/S9b3y#GogZW0kixF"
     },
     {
-      "name": "网络优化配置.txt",
+      "name": "网络优化配置",
       "desc": "提升路由器性能的高级配置技巧",
-      "type": "txt",
-      "size": "28 KB",
+      "type": "url",
       "url": "https://d.tmpfile.link/public/2025-10-11/ba12798b-75b1-4543-b671-3ef3dc7f19d2/基于 TVBox 手机版本.txt"
     },
     {
@@ -62,10 +58,9 @@
       "url": "https://mega.nz/file/WiZTFYyA#_6xXvuJaPoJMbtTyuePCJy2FXoL3DlmJXnnTuW9quNg"
     },
     {
-      "name": "安全配置清单.pdf",
+      "name": "安全配置清单",
       "desc": "加固路由器安全的完整检查清单与步骤",
-      "type": "pdf",
-      "size": "980 KB",
+      "type": "url",
       "url": "https://drive.google.com/file/d/1wC5PAu1e3fZXYtt6-YYcVfMK4ph7VZ0v/view?usp=drive_link"
     },
     {
@@ -75,10 +70,9 @@
       "url": "https://www.dropbox.com/scl/fi/585hasozfgt7uj92t4iri/YouTube-TikTok.txt?rlkey=3c5qtzn2fbhtqs3x66vgt275p&st=b5mqja3m&dl=0"
     },
     {
-      "name": "脚本命令速查表.txt",
+      "name": "脚本命令速查表",
       "desc": "常用Shell命令和脚本示例,快速参考工具",
-      "type": "txt",
-      "size": "62 KB",
+      "type": "url",
       "url": "https://wwsr.lanzoup.com/iGNxG387pfti"
     },
     {
@@ -88,10 +82,9 @@
       "url": "https://send.tresorit.com/a#UZehtI9R1wKxzSWZYPl8Xg"
     },
     {
-      "name": "固件升级指南.pdf",
+      "name": "固件升级指南",
       "desc": "安全升级OpenWrt固件的详细步骤与注意事项",
-      "type": "pdf",
-      "size": "3.2 MB",
+      "type": "url",
       "url": "https://app.koofr.net/links/fecceb6b-538a-4493-8190-cf20d4fcaf44"
     },
     {
@@ -101,10 +94,9 @@
       "url": "https://safesend.it/view/rhmyhzclkgpep0bfoii0t6"
     },
     {
-      "name": "备份恢复教程.txt",
+      "name": "备份恢复教程",
       "desc": "如何正确备份和恢复路由器配置",
-      "type": "txt",
-      "size": "18 KB",
+      "type": "url",
       "url": "https://yopass.se/#/s/69204ed8-08e9-4f6a-add5-36c9b30e4ffd/ClAubW63Epy1KqPiAhy4ez"
     },
     {
@@ -114,10 +106,9 @@
       "url": "https://drive.proton.me/urls/YC63QMWC0R#AUNPoCQi17nS"
     },
     {
-      "name": "插件开发文档.pdf",
+      "name": "插件开发文档",
       "desc": "面向开发者的LuCI插件开发完整教程",
-      "type": "pdf",
-      "size": "4.1 MB",
+      "type": "url",
       "url": "https://raw.githubusercontent.com/fgbfg5676/openwrt-banner/main/files/dev-guide.pdf"
     }
   ],
